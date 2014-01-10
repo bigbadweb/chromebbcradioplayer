@@ -1,0 +1,14 @@
+{
+	"name": "BBC Radio Player",
+	"description": "This app loads up the BBC radio player into an independant window",
+	"version": "0.1",
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"icons": { "16": "radioplayer16x16.png", "128": "radioplayer128x128.png" },
+	"permissions": [
+	    "webview"
+	]
+}
